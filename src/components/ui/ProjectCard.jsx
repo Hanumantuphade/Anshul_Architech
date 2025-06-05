@@ -104,7 +104,7 @@ const ProjectCard = ({ project, index, }) => {
           className="overflow-hidden"
         >
         </motion.div>
-        <button onClick={handleReadMore} className=" text-sm text-green-600 font-medium group-hover:underline">
+        <button onClick={handleReadMore} className=" text-sm text-green-600 font-medium hover:underline">
             Read more →
           </button>
       </div>
