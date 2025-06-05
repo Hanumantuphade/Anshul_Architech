@@ -105,7 +105,7 @@ const ProjectCard = ({ project, index, }) => {
         >
         </motion.div>
         <button onClick={handleReadMore} className=" text-sm text-green-600 font-medium hover:underline">
-            Read more →
+            View Details →
           </button>
       </div>
     </motion.div>
