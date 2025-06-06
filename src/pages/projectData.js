@@ -1,15 +1,16 @@
-import aa2 from "../../public/projectSection/aa2.webp";
+import aa2 from "../assets/projectSection/aa2.webp";
+import aaps2 from "../assets/projectSection/aaps2.jpg";
+import aa6 from "../assets/projectSection/aa6.webp";
+import m3 from "../assets/projectSection/m3.png";
+import photo3 from "../assets/projectSection/photo3.jpg";
+
 import p1m1 from "../assets/project2/m1.jpeg";
 import p1m2 from "../assets/project2/m2.jpeg";
 import p1m3 from "../assets/project2/m3.jpeg";
 import p1m4 from "../assets/project2/m4.jpeg";
 import p1m5 from "../assets/project2/m5.jpeg";
 import p1m6 from "../assets/project2/m6.jpeg";
-import aaps1 from "../../public/projectSection/aaps1.jpg";
-import aaps2 from "../../public/projectSection/aaps2.jpg";
-import aa6 from "../../public/aa6.webp";
-import m3 from "../../public/m3.png";
-import photo3 from "../../public/photo3.jpg";
+
 import aa4 from "../assets/project4/aa4.png";
 import p4m1 from "../assets/project4/m1.jpeg";
 import p4m2 from "../assets/project4/m2.png";

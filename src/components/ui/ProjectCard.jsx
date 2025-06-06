@@ -94,9 +94,9 @@ const ProjectCard = ({ project, index, }) => {
             {project.location}
           </span>
         </motion.div>
-        {/* <Link href="/projectpages/page1">
-        <button>read more</button>
-        </Link> */}
+        
+        {/* <button>read more</button> */}
+        
         <motion.div
           initial={{ opacity: 0, x: -10 }}
           whileHover={{ opacity: 1, x: 0 }}
@@ -104,11 +104,12 @@ const ProjectCard = ({ project, index, }) => {
           className="overflow-hidden"
         >
           
-          <button onClick={handleReadMore} className=" text-sm text-green-600 font-medium group-hover:underline">
-            Read more →
-          </button>
+          
         
         </motion.div>
+        <button onClick={handleReadMore} className=" text-sm text-green-600 font-medium hover:underline">
+            View Details →
+          </button>
       </div>
     </motion.div>
   );
