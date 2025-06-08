@@ -86,51 +86,14 @@ const ProjectDetail = () => {
       </section>
 
       {/* Project Details */}
-      <section className="py-16 bg-white">
+      <section className=" bg-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Project Info */}
-            <div className="lg:col-span-1">
-              <AnimatedSection direction="left">
-                <div className="bg-primary-50 p-8 rounded-lg">
-                  <h3 className="text-2xl font-heading font-semibold mb-6">Project Details</h3>
-                  <ul className="space-y-4">
-                    <li className="flex flex-col">
-                      <span className="text-primary-500 text-sm">Client</span>
-                      <span className="font-medium">{project.client}</span>
-                    </li>
-                    <li className="flex flex-col">
-                      <span className="text-primary-500 text-sm">Location</span>
-                      <span className="font-medium">{project.location}</span>
-                    </li>
-                    <li className="flex flex-col">
-                      <span className="text-primary-500 text-sm">Year</span>
-                      <span className="font-medium">{project.year}</span>
-                    </li>
-                    <li className="flex flex-col">
-                      <span className="text-primary-500 text-sm">Area</span>
-                      <span className="font-medium">{project.area}</span>
-                    </li>
-                    <li className="flex flex-col">
-                      <span className="text-primary-500 text-sm">Category</span>
-                      <span className="font-medium">{project.category}</span>
-                    </li>
-                  </ul>
-                </div>
-              </AnimatedSection>
-            </div>
+           
 
             {/* Project Description */}
-            <div className="lg:col-span-2">
-              <AnimatedSection direction="right">
-                <h2 className="text-3xl font-heading text-slate-500 font-semibold mb-6">About This Project</h2>
-                <div className="prose prose-lg max-w-none text-gray-400">
-                  {project.fullDescription.split('\n\n').map((paragraph, idx) => (
-                    <p key={idx} className="mb-4">{paragraph}</p>
-                  ))}
-                </div>
-              </AnimatedSection>
-            </div>
+            
           </div>
         </div>
       </section>
